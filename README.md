@@ -5,6 +5,7 @@ Converts a RGBD MKV video (recorded by Azure Kinect) to RGB and Depth image fram
 ### To build:
 ```
 git clone <[SSH: git@github.com:scimad/k4a-mkv-to-rgbd.git or HTTPS: https://github.com/scimad/k4a-mkv-to-rgbd.git]>
+cd k4a-mkv-to-rgbd
 mkdir build && cd build
 cmake ..
 make
